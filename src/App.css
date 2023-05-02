@@ -1,0 +1,34 @@
+
+.container{
+
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 150vh;
+  gap: 15px;
+  align-items: center;
+}
+
+.Random{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  /* position: absolute; */
+  background-color: white;
+  border-radius: 4px;
+  width: 80vw;
+  text-align: center;
+  margin-top: 20px;
+  font: bold;
+}
+
+.Random{
+  align-items: center;
+  justify-content: center;
+}
